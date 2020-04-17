@@ -1,0 +1,427 @@
+
+/* CSS Document */
+/* author: Rizwan Pasha */
+/* date: 6th April, 2020 */
+
+
+/*
+______________________________________________
+     GLOBAL STYLES
+______________________________________________
+
+*/
+
+.clearfix:after{
+	display: table;
+	content: "";
+	clear: both;}
+
+/*
+______________________________________________
+               TYPOGRAPHY 
+______________________________________________
+
+*/
+
+
+
+#mainNav ul li a::after{
+content: '';
+Display: block;
+width: 0;
+height: 5px;
+background: #ffa800;
+transition: width .3s;
+	margin-top: 30px;
+}
+
+#mainNav ul li a:hover::after{
+	width: 95%}
+
+
+#footerContact h1{
+	font-size: 20px;
+	color: #FFFFFF;
+		margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+#footerContact p{
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+#footerNav h1{
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footerNav p{
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 30px;
+}
+#banner h1{
+	font-size: 33px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-top: 100px;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+	
+}
+#banner p{
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 21px;
+	margin-top: 20px;
+	margin-bottom: 160px;
+}
+#heroheading{
+	color: #D19117;
+}
+#CalltoAction h1{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+#food ul li h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*
+______________________________________________
+   
+               HYPERLINKS
+   
+______________________________________________
+
+*/
+
+a:link {
+	color: #0C0C0C;
+	text-decoration: none;
+}
+
+	
+a:visited {  
+	color: #5DC6D1;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EAB10A;
+	text-decoration: underline;
+}
+.white{
+	color: #FFFFFF
+}
+footer a:hover{
+ text-underline-position: auto;
+}
+#CalltoAction a{
+	color: #000000;
+	text-decoration: none;
+}
+#CalltoAction a:hover{
+	text-decoration: underline;
+}
+#food a:hover{
+	text-decoration: underline;
+}
+
+
+
+/*
+______________________________________________
+              STRUCTURE
+______________________________________________
+
+*/
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	line-height: 20px;
+	color: #727E87;
+	background-color: #CFCFCF; 
+	background-repeat: repeat;
+	height: 100%;
+}
+#wrapper{
+	width: 1100px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	border-left: 1px solid #dad8d5;
+	border-right: 1px solid #dad8d5;
+	background-color: #D19117;
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+	
+	background-image: url("../image/backgroundimage2.png");
+}
+
+#logo{
+	margin-top: 0;
+	width: 200px;
+	padding: 20px;
+	padding-top: 0;
+}
+#row1{
+	padding: 20px;
+	margin-top: 10px;
+}
+
+#mainNav{
+	
+	float: right;
+	padding-right: 20px;
+
+	
+}
+#mainNav ul li{
+	display: inline-block;
+	margin-right: 40px;
+	margin-bottom: 0px;
+	
+}
+#mainNav ul li a{
+	color: #B7B8AC;
+	font-size: 20px;
+    text-decoration: none;
+	text-transform: uppercase;
+	}
+#row1 social ul li{
+	display: inline-block;
+	font-size: 16px;
+}
+
+#logo {
+	
+	float: left;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#social{
+	float: right;
+	margin-right: 40px;
+	
+	padding-top: 35px;
+	
+}
+#social ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+#banner{
+	margin-bottom: 60px;
+	margin-top: 100px;
+	padding: 75px;
+	width: 350px;
+	margin: 25px;
+	margin-left: 590px;
+}
+#food{
+	background-color: #D19117;
+
+}
+
+#food ul li{
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 60px;
+
+	
+}
+
+#food ul li a{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 22px;
+    text-decoration: none;
+	text-transform: uppercase;
+
+	
+	}
+#CalltoAction{
+
+	
+	background-color: #E1E1E1;
+padding-bottom: 25px;
+	padding-top: 20px;
+	margin-top: 30px;
+	
+	
+}
+
+
+
+.footerNav{
+	float: right;
+	padding: 25px;
+	display: flex;
+}
+footer{
+	width: 1100px;
+	background-color: #282828;
+	border-bottom: solid 1px #393939;
+
+}
+#footerLogo{
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	width: 200px;
+	padding-left: 40px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#spicesInfo h1{
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: #000000;
+}
+.spiceHeading{
+	color: #d19116;
+}
+#spicesInfo p{
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+#spices{
+	background-color: #FFFFFF;
+}
+#fooddelivery h3{
+	text-align: center;
+    
+	padding-top: 10px;
+	margin-top: 40px;
+}
+
+/*
+
+
+______________________________________________
+CREATE HORIZONTAL NAV
+______________________________________________
+
+*/
+
+#icons{
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+	
+}
+#icons ul li{
+	display: inline-block;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+#footerNav{
+	margin-right: 100px;
+}
+#footerNav a{
+	color: #FFFFFF;
+	font-weight: lighter;
+}
+#footerContact{
+	margin-left: 10px;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+#spicesImage{
+	float: left;
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 25px;
+}
+#spicesInfo{
+	float: right;
+	padding-right:  10px;
+	padding-top: 50px;
+	width: 450px;
+}
+#spicesInfo a{
+	margin-top: 35px;
+	padding: 10px;
+	border: thin solid ;
+	text-decoration: none;
+}
+#book{
+	display: inline-block;
+	float: left;
+	width: 320px;
+	margin-left: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+#downloadApp{
+	width: 320px;
+	float: right;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+		text-align: center;
+
+}
+#subscribe{
+	width: 320px;
+	float:left;
+	margin-left: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+			text-align: center;
+
+}
+#fooddelivery{
+	float: left;
+
+	width: 1100px;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	border-top:dotted #A4A3A3;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+#fooddelivery img{
+	margin-left: 49px;
+	margin-right: 40px;
+
+}
+#footerContact img{
+	padding-left: 5px;
+}
+#footerLogo p{
+	margin-top: 50px;
+	padding-top: 75px;
+	color: #FFFFFF;
+	margin-left: 20px;
+	
+}
+#copyright{
+	padding: 15px;
+	padding-left: 50px;
+	font-size: 14px;
+	background-color: #282828;
+}
